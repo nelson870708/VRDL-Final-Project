@@ -68,4 +68,13 @@ You can test the model and make a csv submission file by following:
 ```shell
 python3 make_submission.py
 ```
-## Thanks For
+## Thanks
+Big thank for Alex Shonenkov
+
+[[Training] EfficientDet](https://www.kaggle.com/shonenkov/training-efficientdet)
+
+[[Inference] EfficientDet](https://www.kaggle.com/shonenkov/inference-efficientdet)
+
+[WBF approach for ensemble](https://www.kaggle.com/shonenkov/wbf-approach-for-ensemble)
+
+[[WBF over TTA][Single Model] EfficientDet](https://www.kaggle.com/shonenkov/wbf-over-tta-single-model-efficientdet)
