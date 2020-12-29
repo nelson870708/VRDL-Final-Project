@@ -28,11 +28,17 @@ The following specs were used to create the original solution.
    ```
 
 ## Dataset Preparation
-You can download the data [here](https://www.kaggle.com/c/global-wheat-detection/data).
+You can download the dataset [here](https://www.kaggle.com/c/global-wheat-detection/data).
 
-After downloading the data, the data directory is structured as:
+You can also download the pretrained models from [EfficientDet Pytorch](https://www.kaggle.com/mathurinache/efficientdet).
+
+After downloading the data and pretrained models, the data directory is structured as:
 ```text
 +- input
+    +- efficientdet
+        +- efficientdet_d0-d92fd44f.pth
+        +- efficientdet_d1-4c7ebaf2.pth
+        ...
     +- global-wheat-detection
         +- train
             +- 0a3cb453f.jpg
@@ -62,3 +68,4 @@ You can test the model and make a csv submission file by following:
 ```shell
 python3 make_submission.py
 ```
+## Thanks For
